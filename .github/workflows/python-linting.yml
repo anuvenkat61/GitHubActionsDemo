@@ -1,0 +1,12 @@
+name: linting-python-code
+
+on: push
+
+jobs:
+  python-linting-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Super-Linter
+        uses: super-linter/super-linter@v6.7.0
+            
